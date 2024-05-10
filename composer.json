@@ -1,0 +1,22 @@
+{
+    "name": "remithefox/morse",
+    "description": "Library to generating morse code messages",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "RemiTheFox\\Morse\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Remi the fox",
+            "email": "remithefox93@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.0",
+        "remithefox/wave": "^1.0"
+    }
+}
